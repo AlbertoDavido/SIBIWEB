@@ -401,6 +401,12 @@ footer{
   position: absolute;
 
 }
+.hero-link{
+  text-decoration: none;
+}
+.hero-link:hover h5{
+  color:#03055edc;
+}
 
 
 
