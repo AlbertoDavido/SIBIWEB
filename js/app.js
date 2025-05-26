@@ -10,18 +10,18 @@ const observer=new IntersectionObserver((entries)=>{
 });
 reveals.forEach(el => observer.observe(el));
 
-const revealer=document.querySelectorAll(".home-animate")
+const revealer=document.querySelectorAll(".f-area")
 console.log(revealer);
 const observation=new IntersectionObserver((entryes)=>{
     entryes.forEach((entr)=>{
         if (entr.isIntersecting){
-            entr.target.classList.add("styled")
+            entr.target.classList.add("style")
         }
     });
 });
 revealer.forEach(el => observation.observe(el));
 
-let action=document.querySelectorAll(".btn-action");
+/*let action=document.querySelectorAll(".f-area");
 action.forEach(action =>{
 action.addEventListener("click",function(event){
     event.preventDefault();
@@ -29,7 +29,7 @@ document.getElementById("scroll").scrollIntoView({behaviour: "smooth"})
 });
 })
 
-console.log(action);
+console.log(action);*/
 
 
 
