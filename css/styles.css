@@ -527,7 +527,35 @@ footer{
   position: absolute;
 
 }
+.wellness-image{
+  
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("/images/hospital2.webp");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.wellness-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
 
+}
+.home-icon h5{
+  font-family: 'Sofia';
+  color: #03045e;
+  text-align: center;
+}
 
 
 
