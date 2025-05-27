@@ -1,10 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martian+Mono:wght@100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia&display=swap');
+
 
 
 .navbar-brand img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 @media(max-width: 1000px){
   .carousel-item h1{
@@ -62,16 +64,18 @@ font-weight: 700;}
   
 }
 .navbar-nav{
-   gap: 30%;
+   gap: 20%;
    padding-right: 20%;
    
 }
-.active-item a{
-    text-decoration: underline 2px;
+.active-item{
+  
+   color: #1e95bd !important;
+   font-weight: bold;
 
 }
 .carousel-item h1{
-  font-family: "Sofia,sans-serif";
+  font-family: "DM Sans";
  font-size: 60px;  
 font-weight: 700;
 padding-bottom: 10px;
@@ -82,7 +86,7 @@ padding-bottom: 10px;
  font-size: 20px;  
 font-weight: 400;}
 .carousel-item h3{
-  font-family: "Lato,Martian Mono,sans-serif";
+  font-family: "Montserrat";
   
  font-size: 30px;  
 font-weight: 700;}
@@ -115,20 +119,20 @@ font-weight: 700;}
 }
 .row h4{
   
-  font-family: 'Sofia';
+  font-family: 'Montserrat';
   font-weight: 600;
   color:#8a2e5e;
 
 }
 }
 .nav-item a{
-    color: #03045e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    color: #5c7582;
+    font-family: 'DM Sans';
+    font-weight: 600;
 }
 .navbar-nav a:hover{
-    background-color: #03045e;
-   color: white; 
+   /* background-color: #03045e;*/
+   color: #1e95bd; 
 }
 .cs-itm{
     height: 600px;
@@ -176,7 +180,7 @@ font-weight: 700;
 }
 
 .carousel-item p{
-  font-family: "Martian Mono,sans-serif";
+  font-family: "Montserrat";
   padding-top: 10px;
  font-size: 18px;  
 font-weight: 400;
@@ -262,7 +266,7 @@ height: 100%;
 .home-text h3{
   font-family: "Sofia,sans-serif";
   font-weight: 900 !important;
-  font-size: 60px;
+  font-size: 48px;
 }
 .home-text p{
 font-family:  Helvetica, sans-serif;
@@ -285,7 +289,8 @@ font-weight: 700;
   font-weight: 700;
 }
 .home-icon h3{
-  font-family: 'Sofia';
+  font-family: 'DM Sans';
+  font-size: 24px;
   color: #03045e;
 }
 .choose-text h6{
@@ -534,7 +539,7 @@ footer{
 .wellness-image{
   
   height: 100vh;
-  margin-left: auto;
+  
   
   background: url("/images/wellness-hero.jpg");
   background-size: cover !important;
@@ -607,17 +612,17 @@ footer{
   
   padding: 30px;
   color: black;
-  font-family: Helvetica;
+  font-family: "Montserrat";
   font-weight: 200;
   border-radius: 5%;
 }
 .t-text p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 200 ;
+  font-family: "Montserrat", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500 ;
   font-size: 18px;
 }
 .h-text{
-  font-family: "Sofia";
+  font-family: "DM Sans";
   font-weight: 800;
 }
 .h-text h1{
@@ -629,18 +634,27 @@ footer{
   font-weight: 600;
 }
 label{
-  font-family: "Playfair Display";
-  font-weight: 200;
+  font-family: "Montserrat";
+  font-weight: 400;
   font-size: 20px;
 }
-.ht-text h3{
+.ht-text{
   font-family: "Sofia,sans-serif";
   font-weight: 900 !important;
-  font-size: 60px;
+  font-size: 40px;
 }
 
-
-
+.abt-pic{
+  background-image: url("/images/hospital3.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.abt-text p{
+  font-weight: 500;
+  font-family: "Lato";
+}
 
 
 
