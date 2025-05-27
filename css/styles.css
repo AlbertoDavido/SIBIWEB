@@ -87,8 +87,9 @@ padding-bottom: 10px;
 font-weight: 400;}
 .carousel-item h3{
   font-family: "Montserrat";
+
   
- font-size: 30px;  
+ font-size: 24px;  
 font-weight: 700;}
 
 .b-image{
@@ -210,6 +211,7 @@ font-weight: 400;
 .info-box h5{
   padding-left: 20px;
   color: #03045e;
+  font-family: "Montserrat";
   font-weight: 700 !important;
 }
 .row-txt{
@@ -223,7 +225,8 @@ font-weight: 400;
 }
 .t-flex p{
   padding-left: 90px;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "DM Sans";
 }
 
 .home-icon h3{
@@ -292,10 +295,11 @@ font-weight: 700;
   font-family: 'DM Sans';
   font-size: 24px;
   color: #03045e;
+  font-weight: 700;
 }
 .choose-text h6{
   padding-top: 20px;
-  font-family: 'Helvetica';
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 700;
 }
@@ -566,7 +570,7 @@ footer{
   text-align: center;
 }
 .contact-hero{
-  height: 70vh;
+  height: 90vh;
   background: url("/images/contact-hero1.webp");
   background-position: center;
   background-size: cover;
@@ -652,12 +656,22 @@ label{
   position: relative;
 }
 .abt-text p{
-  font-weight: 500;
-  font-family: "Lato";
+  font-weight: 600;
+  font-family: "Montserrat";
 }
-
-
-
+.partner-hero{
+  background-color: #03045e;
+  color: white;
+}
+.animator{
+  transform: translateY(100px);    /* Start 100px below */
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.animator.style{
+   transform: translateY(0);        /* Animate to original position */
+  opacity: 1;
+}
 
 
 

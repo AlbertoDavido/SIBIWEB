@@ -10,7 +10,7 @@ const observer=new IntersectionObserver((entries)=>{
 });
 reveals.forEach(el => observer.observe(el));
 
-const revealer=document.querySelectorAll(".f-area")
+const revealer=document.querySelectorAll(".animator")
 console.log(revealer);
 const observation=new IntersectionObserver((entryes)=>{
     entryes.forEach((entr)=>{
