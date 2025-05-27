@@ -109,12 +109,7 @@ font-weight: 700;}
   margin-left: 20%;
   
 }
-.choose-text{
-  display: flex;
-  align-items: center;
-  margin-left: 35%;
-  
-}
+
 .footer-mail img{
   margin-left: 90px;
 }
@@ -334,6 +329,10 @@ footer{
 .footer-p {
   margin-left:7px ;
   padding-top: 10px;
+  
+}
+.foot-p{
+font-family: "Montserrat";
 }
 .foot-a{
   font-family: "Sofia";
@@ -565,9 +564,10 @@ footer{
 
 }
 .home-icon h5{
-  font-family: 'Sofia';
+  font-family: 'DM Sans';
   color: #03045e;
   text-align: center;
+  font-weight: 700;
 }
 .contact-hero{
   height: 90vh;
@@ -672,6 +672,8 @@ label{
    transform: translateY(0);        /* Animate to original position */
   opacity: 1;
 }
-
+.btn-text a{
+  font-family: "Montserrat";
+}
 
 
