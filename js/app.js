@@ -21,7 +21,7 @@ const observation=new IntersectionObserver((entryes)=>{
 });
 revealer.forEach(el => observation.observe(el));
 
-/*let action=document.querySelectorAll(".f-area");
+let action=document.querySelectorAll(".btn-action");
 action.forEach(action =>{
 action.addEventListener("click",function(event){
     event.preventDefault();
@@ -29,7 +29,7 @@ document.getElementById("scroll").scrollIntoView({behaviour: "smooth"})
 });
 })
 
-console.log(action);*/
+console.log(action);
 
 
 
